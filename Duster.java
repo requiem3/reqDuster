@@ -14,7 +14,7 @@ import java.awt.Graphics2D;
 import java.awt.Color;
 
 @Script.Manifest(name = "reqDuster", description = "turns chocolate bars into dust")
-//TODO: read todos, also add for when no more gold terminate.
+//TODO: terminate script for State.DONE
 public class Duster extends PollingScript<ClientContext> implements PaintListener {
     private int cBar = 1973;
     private int cDust = 1975;
